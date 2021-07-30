@@ -122,7 +122,7 @@ if st.sidebar.button("Predict"):
     score = svc_model.score(X_train,y_train)  
 
   st.write("Species predicted:", species_type)
-  st.write(f"Accuracy score of this model is: {score*100:.2f}")
+  st.write(f"Accuracy score of this model is: {score*100:.2f}%")
 
 
 
